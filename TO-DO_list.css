@@ -1,0 +1,38 @@
+body {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+#container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    color: blue;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#nouve {
+    margin-bottom: 10px;
+
+}
+
+#btn1 {
+    margin-bottom: 10px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    border: 5px  dashed transparent;
+    /* cursor: pointer; */
+}
+
+#btn2 {
+    margin-bottom: 10px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    border: 5px solid transparent;
+}

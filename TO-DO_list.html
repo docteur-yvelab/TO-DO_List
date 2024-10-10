@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="TO-DO_list.css">
+            <script src="TO-DO_list.js" defer></script>
+        </head>
+        <body>
+
+            
+            <!-- contenu de ma TO-DO_List -->
+
+
+            <div id="container">
+                <h1> TO-DO list</h1>
+                <input type="text" id="nouve" placeholder="insert your new task" required>
+                <ul id="list1">
+                    <li id="task1"></li>
+                </ul>
+            </div>
+
+
+            <!-- mes differents boutons -->
+
+
+            <button type="submit" id="btn1" > new task </button>
+            <button type="reset" id="btn2"> delete </button>
+        </body>
+</html> 
+
+
+
+
+
+
+<!-- copie du code sur poe mais pas bien compris -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+</head>
+<body>
+    <input type="text" id="taskInput" placeholder="Nouvelle tâche...">
+    <button id="addTaskButton">Ajouter</button>
+    <ul id="taskList"></ul>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const taskInput = document.getElementById('taskInput');
+            const addTaskButton = document.getElementById('addTaskButton');
+            const taskList = document.getElementById('taskList');
+
+            addTaskButton.addEventListener('click', function() {
+                const taskTitle = taskInput.value;
+                if (taskTitle) {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = taskTitle;
+                    taskList.appendChild(listItem);
+                    taskInput.value = ''; // Réinitialiser le champ de saisie
+                }
+            });
+        });
+    </script>
+</body>
+</html> -->
